@@ -2,7 +2,7 @@
 
 This is my first program in Python. It's a game played in the console.
 
-## Remember Tomogachi's?
+## Remember Tomogachis and Digivices?
 
 Well, this is similar to that. Train, play, feed, and care for your little digital friend. Let them grow stronger and possibly even change forms!
 
