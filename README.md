@@ -12,8 +12,8 @@ Well, this is similar to that. Train, play, feed, and care for your little digit
   - you can name your pet, and Feed, Train, Play, Clean, and put your pet to sleep
   - Random chance of pet pooping
   - Check your pet's current stats
-- Upcoming features
   - pet can transform
+- Upcoming features
   - Stat upgrades when transforming
   - Possible "adventure" mode
     - Battle other pets in game
