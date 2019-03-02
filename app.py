@@ -37,7 +37,7 @@ while game_running:
     # If Statements on choice
     if choice == "1":
         if hunger > 0:
-            weight += 1
+            weight += 2
             hunger -= 1
             happiness += 1
             do_you_poo()
@@ -47,10 +47,11 @@ while game_running:
     elif choice == "2":
         if stamina > 0:
             health += 2
-            strength += 1
+            strength += 2
             stamina -= 1
             max_stamina += 1
             hunger += 1
+            weight -= 1
             print("\nGettin' S W O L E!\n")
         else:
             print("\n" + digi_name + " is too tired, let them rest!\n")
@@ -80,6 +81,17 @@ while game_running:
         print("Happiness: " + str(happiness) + "\n")
     elif choice == "q" or choice == "Q":
         game_running = False
+
+    if strength >= 15 and weight >= 8 and weight <= 12 and happiness >= 20:
+        print("\nWoah! " + digi_name + " transformed into a Renamon!\n")
+    if strength >= 30 and weight >= 20 and weight <= 22 and happiness >= 40:
+        print("\nCongratulations! " + digi_name + " transformed into a Kyubimon!\n")
+    if strength >= 60 and weight >= 35 and weight <= 38 and happiness >= 75 and not poo:
+        print("\nHoly Cow! " + digi_name + " transformed into a Taomon!\n")
+    if strength >= 100 and weight == 50 and happiness >= 100 and not poo:
+        print("\nYou are the best handler! " + digi_name + " transformed into the highest level Sakuyamon!\n")
+
+
 
 
 
