@@ -13,8 +13,8 @@ Well, this is similar to that. Train, play, feed, and care for your little digit
   - Random chance of pet pooping
   - Check your pet's current stats
   - pet can transform
-- Upcoming features
   - Stat upgrades when transforming
+- Upcoming features
   - Possible "adventure" mode
     - Battle other pets in game
       - It will just say something like "You fought a biyomon, you won!" or "You fought a sakuyamon, you lost!"
